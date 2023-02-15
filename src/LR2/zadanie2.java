@@ -15,7 +15,8 @@ public class zadanie2 {
         int sum = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                mas[i][j] = random.nextInt(-10, 10);
+                mas[i][j]= random.nextInt();
+                //mas[i][j] = random.nextInt(-10, 10);
                 System.out.print(mas[i][j] + "  ");
             }
             System.out.println();
