@@ -29,9 +29,10 @@ public class Train {
             time = scanner.next();
             return time;
         }
-        public void sendMessage()
+        public byte[] sendMessage()
         {
             System.out.println("Номер поезда который сейчас отправляется: "+number);
+            return new byte[0];
         }
         public void receiveTrain(String name, String number)
         {
